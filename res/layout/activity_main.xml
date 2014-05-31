@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flower"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/princess_flower"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" 
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click me" 
+        android:onClick="openActivityTwo"/>
+
+</LinearLayout>
