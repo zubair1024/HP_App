@@ -1,9 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:layout_margin="@dimen/activity_horizontal_margin">
+    android:background="@drawable/background"
+    android:padding="@dimen/activity_horizontal_margin">
 
     <TextView
         android:id="@+id/textView1"
